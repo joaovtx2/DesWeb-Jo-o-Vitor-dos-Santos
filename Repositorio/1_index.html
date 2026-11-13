@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho de Desenvolvimento Web</title>
+    <link rel="stylesheet" href="2_style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site!</h1>
+        <p>Aprendendo HTML, CSS, JavaScript e PHP passo a passo.</p>
+    </header>
+
+    <main>
+       <section id="sobre">
+            <h2>Sobre o Conteúdo</h2>
+            <p>Página criada para praticar o uso de HTML, CSS, JavaScript e PHP</p>
+        </section>
+
+        <section id="contato">
+            <h2>Fale Conosco</h2>
+            <form action="4_conexao.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required minlength="3">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit">Enviar Dados</button>
+            </form>
+        </section>
+
+        <section id="exemplo-js">
+            <h2>Recurso em JavaScript</h2>
+            <button id="botao-interativo" type="button">Clique em mim</button>
+            <div id="mensagem-js" style="margin-top: 10px;"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por João Vitor dos Santos Carvalho</p>
+    </footer>
+
+    <script src="3_script.js"></script>
+</body>
+</html>
